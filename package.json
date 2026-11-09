@@ -1,0 +1,40 @@
+{
+  "name": "shopify-sitemap-auditor",
+  "version": "1.0.0",
+  "description": "Audits a Shopify store's sitemap.xml and every child sitemap: empty or missing sitemaps, redirecting or dead URLs, wrong host, bad lastmod dates, duplicates, and URLs that robots.txt blocks.",
+  "license": "MIT",
+  "author": "Ecom Swift LLC",
+  "bin": {
+    "ssma": "bin/ssma.js"
+  },
+  "main": "lib/audit.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "samples"
+  ],
+  "keywords": [
+    "shopify",
+    "sitemap",
+    "sitemap-xml",
+    "seo",
+    "technical-seo",
+    "crawling",
+    "audit",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecom-Swift-LLC/shopify-sitemap-auditor.git"
+  },
+  "homepage": "https://github.com/Ecom-Swift-LLC/shopify-sitemap-auditor",
+  "bugs": {
+    "url": "https://github.com/Ecom-Swift-LLC/shopify-sitemap-auditor/issues"
+  }
+}
